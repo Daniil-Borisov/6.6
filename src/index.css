@@ -1,15 +1,18 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font: 20px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
 
-.board-row:after {
-    clear: both;
-    content: "";
-    display: table;
+button {
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
 }
 
 .status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -17,30 +20,30 @@ body {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 65px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    height: 100px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
 }
 
 .square:focus {
    outline: none;
 }
 
-.kbd-navigation .square:focus {
-    background: #ddd;
+.insteadButton {
+    margin-bottom: 35px;
 }
 
 .game {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-.game-info {
-    margin-left: 20px;
-}
+
+
+
